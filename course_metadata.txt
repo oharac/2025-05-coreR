@@ -1,0 +1,6 @@
+course_proj = 2025-05-coreR
+course_org = nceas-learning-hub
+title = coreR May 2025
+description = These are the instructional materials for the May 2025 coreR course!
+start_date = now
+end_date = then

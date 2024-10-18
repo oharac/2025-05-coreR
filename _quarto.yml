@@ -1,0 +1,53 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "coreR May 2025"
+  subtitle: "now - then"
+  reader-mode: false
+
+  # NoteHD: cover image is not working
+  # cover-image: cover.png
+  # cover-image-alt: "Learning Hub logo in the shape of a hexagon with a bee in the center"
+
+  favicon: cover.png # learning hub logo
+
+  sidebar:
+    title: "Training Materials"
+    style: "floating"
+    search: true
+    tools:
+      - icon: house-door-fill
+        href: https://www.nceas.ucsb.edu/learning-hub
+      - icon: twitter
+        href: https://twitter.com/ucsb_nceas
+      - icon: github
+        href: https://github.com/nceas-learning-hub/2025-05-coreR
+
+  chapters:
+    - index.qmd # preface
+    - session_01.qmd  ### activity: reproducibility lego   (coreRlessons v0.1.0)
+    - session_02.qmd  ### github: collaboration   (coreRlessons v0.1.0)
+    - session_03.qmd  ### github: introduction   (coreRlessons v0.1.0)
+    - session_04.qmd  ### lecture: tidy data   (coreRlessons v0.1.0)
+    - session_05.qmd  ### r: functions   (coreRlessons v0.1.0)
+    - session_06.qmd  ### r: packages   (coreRlessons v0.1.0)
+    - session_07.qmd  ### r: practice tidy data joins   (coreRlessons v0.1.0)
+    - session_08.qmd  ### r: programming introduction   (coreRlessons v0.1.0)
+    - session_09.qmd  ### r: quarto literate analysis   (coreRlessons v0.1.0)
+    - session_10.qmd  ### r: tidyverse clean wrangle   (coreRlessons v0.1.0)
+
+
+
+bibliography: book.bib
+
+format:
+  html:
+    theme: cosmo
+    css: style.css
+    # Note HD: latex rendering issues, maybe with column-margin
+  # pdf:
+  #   documentclass: scrreprt
+
+editor: visual
